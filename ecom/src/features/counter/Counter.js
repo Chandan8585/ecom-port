@@ -1,13 +1,13 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import {
-  selectCount,
-} from './counterSlice';
+// import { useSelector, useDispatch } from 'react-redux';
+// import {
+//   selectCount,
+// } from './counterSlice';
 
 
 export function Counter() {
-  const count = useSelector(selectCount);
-  const dispatch = useDispatch();
+  // const count = useSelector(selectCount);
+  // const dispatch = useDispatch();
 
   return (
     <div>
